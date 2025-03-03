@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<layout>
+  <block>
+    <name>West  OS</name>
+    <occupied>05.01.01.01.22.F0.00.00</occupied>
+    <clear>05.01.01.01.22.F0.00.01</clear>
+  </block>
+  <block>
+    <name>East  OS</name>
+    <occupied>05.01.01.01.22.F0.00.02</occupied>
+    <clear>05.01.01.01.22.F0.00.03</clear>
+  </block>
+  <block>
+    <name>Main Track 2</name>
+    <occupied>05.01.01.01.22.F0.00.04</occupied>
+    <clear>05.01.01.01.22.F0.00.05</clear>
+  </block>
+  <block>
+    <name>Siding Track</name>
+    <occupied>05.01.01.01.22.F0.00.06</occupied>
+    <clear>05.01.01.01.22.F0.00.07</clear>
+  </block>
+  <signal>
+    <name>CP1-E</name>
+    <aspect>
+      <name>Stop</name>
+      <event>05.01.01.01.22.F0.01.31</event>
+      <look>Stop</look>
+    </aspect>
+    <aspect>
+      <name>Slow Approach</name>
+      <event>05.01.01.01.22.F0.01.34</event>
+      <look>Slow Approach</look>
+    </aspect>
+    <aspect>
+      <name>Slow Clear</name>
+      <event>05.01.01.01.22.F0.01.37</event>
+      <look>Slow Clear</look>
+    </aspect>
+    <aspect>
+      <name>Approach</name>
+      <event>05.01.01.01.22.F0.01.3A</event>
+      <look>Approach</look>
+    </aspect>
+    <aspect>
+      <name>Clear</name>
+      <event>05.01.01.01.22.F0.01.3D</event>
+      <look>Clear</look>
+    </aspect>
+  </signal>
+  <signal>
+    <name>CP1-WM</name>
+    <aspect>
+      <name>Stop</name>
+      <event>05.01.01.01.22.F0.01.4A</event>
+      <look>Stop</look>
+    </aspect>
+    <aspect>
+      <name>Approach</name>
+      <event>05.01.01.01.22.F0.01.4D</event>
+      <look>Approach</look>
+    </aspect>
+    <aspect>
+      <name>Clear</name>
+      <event>05.01.01.01.22.F0.01.50</event>
+      <look>Clear</look>
+    </aspect>
+  </signal>
+  <signal>
+    <name>CP1-WS</name>
+    <aspect>
+      <name>Stop</name>
+      <event>05.01.01.01.22.F0.01.63</event>
+      <look>Stop</look>
+    </aspect>
+    <aspect>
+      <name>Approach</name>
+      <event>05.01.01.01.22.F0.01.66</event>
+      <look>Approach</look>
+    </aspect>
+    <aspect>
+      <name>Clear</name>
+      <event>05.01.01.01.22.F0.01.69</event>
+      <look>Clear</look>
+    </aspect>
+  </signal>
+  <signal>
+    <name>CP2-W</name>
+    <aspect>
+      <name>Stop</name>
+      <event>02:01:57:00:0F:F0.02.30</event>
+      <look>Stop</look>
+    </aspect>
+    <aspect>
+      <name>Slow Approach</name>
+      <event>02:01:57:00:0F:F0.02.34</event>
+      <look>Slow Approach</look>
+    </aspect>
+    <aspect>
+      <name>Slow Clear</name>
+      <event>02:01:57:00:0F:F0.02.38</event>
+      <look>Slow Clear</look>
+    </aspect>
+    <aspect>
+      <name>Approach</name>
+      <event>02:01:57:00:0F:F0.02.3C</event>
+      <look>Approach</look>
+    </aspect>
+    <aspect>
+      <name>Clear</name>
+      <event>02:01:57:00:0F:F0.03.00</event>
+      <look>Clear</look>
+    </aspect>
+  </signal>
+  <signal>
+    <name>CP2-EM</name>
+    <aspect>
+      <name>Stop</name>
+      <event>02:01:57:00:0F:F0.04.30</event>
+      <look>Stop</look>
+    </aspect>
+    <aspect>
+      <name>Approach</name>
+      <event>02:01:57:00:0F:F0.04.34</event>
+      <look>Approach</look>
+    </aspect>
+    <aspect>
+      <name>Clear</name>
+      <event>02:01:57:00:0F:F0.04.38</event>
+      <look>Clear</look>
+    </aspect>
+  </signal>
+  <signal>
+    <name>CP2-ES</name>
+    <aspect>
+      <name>Stop</name>
+      <event>02:01:57:00:0F:F0.05.30</event>
+      <look>Stop</look>
+    </aspect>
+    <aspect>
+      <name>Approach</name>
+      <event>02:01:57:00:0F:F0.05.34</event>
+      <look>Approach</look>
+    </aspect>
+    <aspect>
+      <name>Clear</name>
+      <event>02:01:57:00:0F:F0.05.38</event>
+      <look>Clear</look>
+    </aspect>
+  </signal>
+  <turnout>
+    <name>West Siding</name>
+    <motor>
+      <normal>05.01.01.01.22.F0.00.08</normal>
+      <reverse>05.01.01.01.22.F0.00.09</reverse>
+    </motor>
+    <points>
+      <normal>05.01.01.01.22.F0.00.18</normal>
+      <reverse>05.01.01.01.22.F0.00.19</reverse>
+    </points>
+  </turnout>
+  <turnout>
+    <name>East Siding</name>
+    <motor>
+      <normal>05.01.01.01.22.F0.00.0C</normal>
+      <reverse>05.01.01.01.22.F0.00.0D</reverse>
+    </motor>
+    <points>
+      <normal>05.01.01.01.22.F0.00.1A</normal>
+      <reverse>05.01.01.01.22.F0.00.1B</reverse>
+    </points>
+  </turnout>
+</layout>
