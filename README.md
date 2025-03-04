@@ -2,4 +2,5 @@
 
 Amhert Belt Lines LCC Demo Module
 
-![ABEL-Module](Assets/ABEL-Module.png)
+- Module layout: ![ABEL-Module](Assets/ABEL-Module.png)
+- CTC Panel: ![CTC Panel](Assets/ABEL-Module-CTCPanel.png)

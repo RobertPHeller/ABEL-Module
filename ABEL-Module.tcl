@@ -1079,19 +1079,19 @@ OpenLCB_Dispatcher ConnectToOpenLCB -transport CANGridConnectOverTcp -port 12021
 OpenLCB_Dispatcher create %AUTO% -name West-Siding_code \
 	-eleclasstype CodeButton \
 
-# OpenLCB_Dispatcher CP2-W -eleclasstype Signal -eventidaspectlist {02:01:57:00:0F:F0.02.30 {red red} 02:01:57:00:0F:F0.02.34 {red yellow} 02:01:57:00:0F:F0.02.38 {red green} 02:01:57:00:0F:F0.02.3C {yellow red} 02:01:57:00:0F:F0.03.00 {green red}}
+# OpenLCB_Dispatcher CP2-W -eleclasstype Signal -eventidaspectlist {02.01.57.00.0F.F0.02.30 {red red} 02.01.57.00.0F.F0.02.34 {red yellow} 02.01.57.00.0F.F0.02.38 {red green} 02.01.57.00.0F.F0.02.3C {yellow red} 02.01.57.00.0F.F0.03.00 {green red}}
 OpenLCB_Dispatcher create %AUTO% -name CP2-W \
 	-eleclasstype Signal \
 	-eventidaspectlist [list \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.02.30}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.02.30}] \
 {red red} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.02.34}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.02.34}] \
 {red yellow} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.02.38}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.02.38}] \
 {red green} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.02.3C}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.02.3C}] \
 {yellow red} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.03.00}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.03.00}] \
 {green red} \
 	]
 # OpenLCB_Dispatcher CP1-WS -eleclasstype Signal -eventidaspectlist {05.01.01.01.22.F0.01.63 red 05.01.01.01.22.F0.01.66 yellow 05.01.01.01.22.F0.01.69 green}
@@ -1109,15 +1109,15 @@ OpenLCB_Dispatcher create %AUTO% -name CP1-WS \
 OpenLCB_Dispatcher create %AUTO% -name MainLineTrack1 \
 	-eleclasstype Block \
 
-# OpenLCB_Dispatcher CP2-EM -eleclasstype Signal -eventidaspectlist {02:01:57:00:0F:F0.04.30 red 02:01:57:00:0F:F0.04.34 yellow 02:01:57:00:0F:F0.04.38 green}
+# OpenLCB_Dispatcher CP2-EM -eleclasstype Signal -eventidaspectlist {02.01.57.00.0F.F0.04.30 red 02.01.57.00.0F.F0.04.34 yellow 02.01.57.00.0F.F0.04.38 green}
 OpenLCB_Dispatcher create %AUTO% -name CP2-EM \
 	-eleclasstype Signal \
 	-eventidaspectlist [list \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.04.30}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.04.30}] \
 {red} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.04.34}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.04.34}] \
 {yellow} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.04.38}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.04.38}] \
 {green} \
 	]
 # OpenLCB_Dispatcher MainLineTrack2 -eleclasstype Block
@@ -1149,15 +1149,15 @@ OpenLCB_Dispatcher create %AUTO% -name Siding-Track \
 OpenLCB_Dispatcher create %AUTO% -name main2b \
 	-eleclasstype Block \
 
-# OpenLCB_Dispatcher CP2-ES -eleclasstype Signal -eventidaspectlist {02:01:57:00:0F:F0.05.30 red 02:01:57:00:0F:F0.05.34 yellow 02:01:57:00:0F:F0.05.38 green}
+# OpenLCB_Dispatcher CP2-ES -eleclasstype Signal -eventidaspectlist {02.01.57.00.0F.F0.05.30 red 02.01.57.00.0F.F0.05.34 yellow 02.01.57.00.0F.F0.05.38 green}
 OpenLCB_Dispatcher create %AUTO% -name CP2-ES \
 	-eleclasstype Signal \
 	-eventidaspectlist [list \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.05.30}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.05.30}] \
 {red} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.05.34}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.05.34}] \
 {yellow} \
-		[lcc::EventID %AUTO% -eventidstring {02:01:57:00:0F:F0.05.38}] \
+		[lcc::EventID %AUTO% -eventidstring {02.01.57.00.0F.F0.05.38}] \
 {green} \
 	]
 # OpenLCB_Dispatcher East-Siding_code -eleclasstype CodeButton
