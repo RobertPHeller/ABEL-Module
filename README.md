@@ -23,7 +23,7 @@ gas prices and other information, including a clock.
 - Deepwoods Software ESP32-T7S3-MultiFunction-UniversalTurnout, with Stall 
   Motor Daughter board
   - 4 Occupancy detectors (all 4 in use: both OS sections and track2 between
-    turnouts and the siding.
+    turnouts and the siding).
   - 4 Turnout drivers w/ point sense (2 in use: both turnouts)
   - 4 GP Drivers (none in use)
   - 4 Pushbutton inputs (none in use)
