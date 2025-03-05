@@ -15,4 +15,4 @@ lights and gates.  In the town is a pool hall with an automated lighted sign,
 Up on the mountain cliff is a highway that includes a bridge over the back of 
 the town and siding.  Also along the highway is a motel with a lighted sign
 and a modern gas station / mini-mart with a lighted text-base sign, displaying
-gas prices and other information.
+gas prices and other information, including a clock.
