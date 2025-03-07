@@ -45,3 +45,17 @@ gas prices and other information, including a clock.
 - LCC-Buffer USB -- connected to Raspberry Pi
 
 - Raspberry Pi 4 w/ touchsreen monitor for CTC panel.
+
+## Software used
+
+- Model Railroad System
+
+  - Dispatcher panel on RPi
+  - OpenLCB/OpenLCB2 on the RPi (configuring nodes)
+  
+- OpenMRN
+
+  - ESP32-S3-MultiFunctionOpenMRNIDF
+  - ESP32-OctalBufferOpenMRNIDF
+  - ESP32-T7S3-TextDisplaySign/firmware
+  - STM32F303-RIR4/firmware
