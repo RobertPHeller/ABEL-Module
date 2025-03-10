@@ -48,11 +48,11 @@ gas prices and other information, including a clock.
 
 ## Other electrical mechanical
 
-4x Circuitron Tortoise (two for the turnouts and two for the crossing gates)
-2x dual head (3 over 3) color light signals
-4x single head 3 color light signals
-2x crossing gates w/lights
-1x bell unit for grade crossing
+- 4x Circuitron Tortoise (two for the turnouts and two for the crossing gates)
+- 2x dual head (3 over 3) color light signals
+- 4x single head 3 color light signals
+- 2x crossing gates w/lights
+- 1x bell unit for grade crossing
 
 ## Software used
 
