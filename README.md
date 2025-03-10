@@ -36,7 +36,7 @@ gas prices and other information, including a clock.
 - Deepwoods Software STM32F303 RIR4 base board w/ STM32F303 and 2x Azatraz 
   RIR4s -- used for grade crossing
 
-- 2x Deepwoods Software ESP32-T7S3-OctalBuffer
+- 2x Deepwoods Software ESP32-Mini32-OctalBuffer
   - One for the 8-Ball Club sign and the warehouse and hotel lights
   - The other for Bates Motel and forest cabin lights
   
@@ -45,6 +45,14 @@ gas prices and other information, including a clock.
 - LCC-Buffer USB -- connected to Raspberry Pi
 
 - Raspberry Pi 4 w/ touchsreen monitor for CTC panel.
+
+## Other electrical mechanical
+
+4x Circuitron Tortoise (two for the turnouts and two for the crossing gates)
+2x dual head (3 over 3) color light signals
+4x single head 3 color light signals
+2x crossing gates w/lights
+1x bell unit for grade crossing
 
 ## Software used
 
@@ -58,4 +66,4 @@ gas prices and other information, including a clock.
   - ESP32-S3-MultiFunctionOpenMRNIDF
   - ESP32-OctalBufferOpenMRNIDF
   - ESP32-T7S3-TextDisplaySign/firmware
-  - STM32F303-RIR4/firmware
+  - STM32F303-RIR4/firmware/targets/freertos.armv7m.st-stm32f303re-nucleo-standardcrssing-2shields
